@@ -1,0 +1,14 @@
+{
+  "name": "Caroosel",
+  "main": "index.html",
+  "window": {
+    "title": "Caroosel",
+    "toolbar": true,
+    "frame": true,
+    "width": 1200,
+    "height": 600,
+    "position": "center",
+    "min_width": 400,
+    "min_height": 200
+  }
+}
