@@ -5,6 +5,17 @@
     <meta http-equiv="refresh" content="0; url=https://carousel.dropbox.com/app/timeline" />
 </head>
 <body bgcolor="#f2f2f2">
+<script>
+var gui = require('nw.gui');
+win = gui.Window.get();
+var nativeMenuBar = new gui.Menu({ type: "menubar" });
+try {
+nativeMenuBar.createMacBuiltin("My App");
+win.menu = nativeMenuBar;
+} catch (ex) {
+console.log(ex.message);
+}
+</script>
 <center><img src="loading.gif" /></center>
 </body>
 </html>
